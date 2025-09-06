@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.Python
+.env
+.venv
+venv/
+ENV/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Supabase
+supabase/.temp/
+supabase/.output/
+supabase/.env
+
+# テスト/カバレッジ
+.coverage
+htmlcov/
+coverage.xml
+pytest_cache/
+.mypy_cache/
+.pytest_cache/
+.tox/
+
+# ログ
+*.log
+
+# その他
+*.sqlite3
+*.db
+node_modules/
+AGENTS.md
