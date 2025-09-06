@@ -9,9 +9,9 @@ app = FastAPI(title="Prompt Pallet API")
 # フロントエンド (Next.js) からのアクセスを許可する
 app.add_middleware(
     CORSMiddleware,
-    # allow_origins=["http://localhost:3000"],  # Next.jsの開発サーバのURL
     allow_origins=[
-        "https://prompt-pallet-kappa.vercel.app"
+        "http://localhost:3000",  # Next.jsの開発サーバのURL
+        "https://prompt-pallet-kappa.vercel.app",
     ],  # 本番環境では適切なオリジンを指定することを推奨
     allow_credentials=True,
     allow_methods=["*"],
